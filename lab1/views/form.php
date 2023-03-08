@@ -9,7 +9,7 @@
     <body>
         <h3> Contact Form </h3>
         <div id="after_submit">
-        <?php echo $result ?? NULL ?>
+        <?php echo $error ?? NULL ?>
         </div>
         <form id="contact_form" action="index.php" method="POST" enctype="multipart/form-data">
 
